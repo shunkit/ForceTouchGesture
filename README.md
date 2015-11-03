@@ -1,9 +1,10 @@
-# ForceTouchGesture
 <p align="center">
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat" alt="Swift 2 compatible" /></a>
 <a href="https://raw.githubusercontent.com/xmartlabs/Eureka/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
+
+# ForceTouchGesture
 
 3D Touch Gesture Recognizer written in Swift 2.
 
@@ -21,7 +22,7 @@ UITouchクラスに`force`プロパティが追加され、スクリーンを押
 - iOS 7.0+
 - Xcode7.1+
 
-# How to use
+# Usage
 
 イニシャライズとUIViewへの追加は一般的なUIGestureRecognizerと同じです。
 
@@ -49,12 +50,16 @@ func forceTouchHandler(gestureRecognizer: ForceTouchGestureRecognizer) {
 }
 ```
 
+# Properties
 設定できるプロパティは以下です。
 
 - `minimumForce: CGFloat`: GestureRecognizerのstateをEndedにする最小のforceの値です。デフォルトは3.0。
-- `vibrationEnabled`: trueにするとGestureRecognizerのstateがEndedになったときに、システムのバイブレーションが発生します。デモアプリを触ってもらえると分かりますが、3D Touchのデフォルトのバイブレーションではないので、おまけのようなものです。デフォルトはfalse。
+- `vibrationEnabled: Bool`: trueにするとGestureRecognizerのstateがEndedになったときに、システムのバイブレーションが発生します。デモアプリを触ってもらえると分かりますが、3D Touchのデフォルトのバイブレーションではないので、おまけのようなものです。デフォルトはfalse。
 
-取得できるプロパティは
+取得できるプロパティは以下です。
+
+- `force: CGFloat`: UITouchクラスのforceの値です。3D Touchに対応していない場合はずっと0のままです。
+- `forceTouchAvailable: Bool`: 3D Touchに対応しているかどうかです。3D Touch対応端末でもiPhoneの設定より3D Touchをオフにすることができるので、現在対応しているかどうかを返します。
 
 # License
 ForceTouchGestureRecognizer is released under the MIT license. See LICENSE for details.
