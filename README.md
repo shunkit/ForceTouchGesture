@@ -65,4 +65,4 @@ func forceTouchHandler(gestureRecognizer: ForceTouchGestureRecognizer) {
 - `forceTouchAvailable: Bool`: 3D Touchに対応しているかどうかです。3D Touch対応端末でもiPhoneの設定より3D Touchをオフにすることができるので、現在対応しているかどうかを返します。
 
 # License
-ForceTouchGestureRecognizer is released under the MIT license. See LICENSE for details.
+ForceTouchGesture is released under the MIT license. See LICENSE for details.
