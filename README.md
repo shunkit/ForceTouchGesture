@@ -1,14 +1,17 @@
+# ForceTouchGesture
+
 <p align="center">
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat" alt="Swift 2 compatible" /></a>
 <a href="https://raw.githubusercontent.com/xmartlabs/Eureka/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-# ForceTouchGesture
-
 3D Touch Gesture Recognizer written in Swift 2.
 
-This documentation is in Japanese. Please wait for translating to English.
+This documentation is in Japanese. Please wait for translating it into English.
+
+
+# Introduction
 
 iPhone6S, iPhone6S Plusより3D Touchが導入されました。詳細は以下のAppleの公式ドキュメントをご覧下さい。
 
