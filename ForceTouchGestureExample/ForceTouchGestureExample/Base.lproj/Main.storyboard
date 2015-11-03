@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ForceTouchGestureExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRe-Zc-zLp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GY-jN-mxf">
+                                        <rect key="frame" x="273" y="100" width="54" height="43"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="0GY-jN-mxf" firstAttribute="centerX" secondItem="lRe-Zc-zLp" secondAttribute="centerX" id="M5q-GP-Vxv"/>
+                                    <constraint firstItem="0GY-jN-mxf" firstAttribute="top" secondItem="lRe-Zc-zLp" secondAttribute="top" constant="100" id="ggK-zZ-7Um"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcx-N9-yAB">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum Touch Force" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roo-iN-Jcu">
+                                        <rect key="frame" x="215" y="10" width="170" height="20"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="JeM-MG-B3M"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecl-dy-CxI">
+                                        <rect key="frame" x="405" y="10" width="24" height="20"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="oBK-mi-rvP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="9wR-ed-EX4">
+                                        <rect key="frame" x="20" y="40" width="560" height="31"/>
+                                        <animations/>
+                                        <color key="minimumTrackTintColor" red="0.0" green="0.34901960784313724" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="thumbTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="minimumTouchForceValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Riw-Qt-2Vv"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.9522898706896552" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0UO-gU-xdf"/>
+                                    <constraint firstAttribute="trailing" secondItem="9wR-ed-EX4" secondAttribute="trailing" constant="22" id="0qP-R4-Ht0"/>
+                                    <constraint firstItem="9wR-ed-EX4" firstAttribute="top" secondItem="Ecl-dy-CxI" secondAttribute="bottom" constant="10" id="3D1-Qn-rww"/>
+                                    <constraint firstItem="Ecl-dy-CxI" firstAttribute="centerY" secondItem="roo-iN-Jcu" secondAttribute="centerY" id="4n2-JB-AhD"/>
+                                    <constraint firstItem="roo-iN-Jcu" firstAttribute="centerX" secondItem="Bcx-N9-yAB" secondAttribute="centerX" id="Q73-ek-M3r"/>
+                                    <constraint firstItem="roo-iN-Jcu" firstAttribute="top" secondItem="Bcx-N9-yAB" secondAttribute="top" constant="10" id="fz3-Au-Pmv"/>
+                                    <constraint firstItem="Ecl-dy-CxI" firstAttribute="leading" secondItem="roo-iN-Jcu" secondAttribute="trailing" constant="20" id="k0a-CC-qfX"/>
+                                    <constraint firstItem="9wR-ed-EX4" firstAttribute="leading" secondItem="Bcx-N9-yAB" secondAttribute="leading" constant="22" id="wzd-BZ-owJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Bcx-N9-yAB" secondAttribute="trailing" id="0Va-HQ-Tsu"/>
+                            <constraint firstItem="lRe-Zc-zLp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4sx-vv-6fi"/>
+                            <constraint firstItem="Bcx-N9-yAB" firstAttribute="top" secondItem="lRe-Zc-zLp" secondAttribute="bottom" id="91t-yN-3tC"/>
+                            <constraint firstItem="Bcx-N9-yAB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jza-Ta-Oyb"/>
+                            <constraint firstItem="lRe-Zc-zLp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ls9-tF-yKH"/>
+                            <constraint firstAttribute="trailing" secondItem="lRe-Zc-zLp" secondAttribute="trailing" id="g4W-4a-4qN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bcx-N9-yAB" secondAttribute="bottom" id="sxr-zj-l2o"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentTouchForceLabel" destination="0GY-jN-mxf" id="FcL-MT-mfH"/>
+                        <outlet property="minimumTouchForceLabel" destination="Ecl-dy-CxI" id="B6r-Rd-8Az"/>
+                        <outlet property="minimumTouchForceSlider" destination="9wR-ed-EX4" id="TsZ-5L-LT6"/>
+                        <outlet property="touchView" destination="lRe-Zc-zLp" id="m94-79-Ro7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

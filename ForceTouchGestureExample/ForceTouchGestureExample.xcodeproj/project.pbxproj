@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB6AAC21BE48F77003F7981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6AAC11BE48F77003F7981 /* AppDelegate.swift */; };
+		5DB6AAC41BE48F77003F7981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6AAC31BE48F77003F7981 /* ViewController.swift */; };
+		5DB6AAC71BE48F77003F7981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6AAC51BE48F77003F7981 /* Main.storyboard */; };
+		5DB6AAC91BE48F77003F7981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6AAC81BE48F77003F7981 /* Assets.xcassets */; };
+		5DB6AACC1BE48F77003F7981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6AACA1BE48F77003F7981 /* LaunchScreen.storyboard */; };
+		5DB6AAD71BE48FA1003F7981 /* ForceTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6AAD51BE48FA1003F7981 /* ForceTouchGestureRecognizer.swift */; };
+		5DB6AAD81BE48FA1003F7981 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6AAD61BE48FA1003F7981 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DAFE0B21BE8A04E008481F1 /* ForceTouchGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTouchGesture.h; sourceTree = "<group>"; };
+		5DB6AABE1BE48F77003F7981 /* ForceTouchGestureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchGestureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB6AAC11BE48F77003F7981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DB6AAC31BE48F77003F7981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DB6AAC61BE48F77003F7981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DB6AAC81BE48F77003F7981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB6AACB1BE48F77003F7981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DB6AACD1BE48F77003F7981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB6AAD51BE48FA1003F7981 /* ForceTouchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureRecognizer.swift; sourceTree = "<group>"; };
+		5DB6AAD61BE48FA1003F7981 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB6AABB1BE48F77003F7981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB6AAB51BE48F77003F7981 = {
+			isa = PBXGroup;
+			children = (
+				5DB6AAD31BE48FA1003F7981 /* ForceTouchGesture */,
+				5DB6AAC01BE48F77003F7981 /* ForceTouchGestureExample */,
+				5DB6AABF1BE48F77003F7981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB6AABF1BE48F77003F7981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6AABE1BE48F77003F7981 /* ForceTouchGestureExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB6AAC01BE48F77003F7981 /* ForceTouchGestureExample */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6AAC11BE48F77003F7981 /* AppDelegate.swift */,
+				5DB6AAC31BE48F77003F7981 /* ViewController.swift */,
+				5DB6AAC51BE48F77003F7981 /* Main.storyboard */,
+				5DB6AAC81BE48F77003F7981 /* Assets.xcassets */,
+				5DB6AACA1BE48F77003F7981 /* LaunchScreen.storyboard */,
+				5DB6AACD1BE48F77003F7981 /* Info.plist */,
+			);
+			path = ForceTouchGestureExample;
+			sourceTree = "<group>";
+		};
+		5DB6AAD31BE48FA1003F7981 /* ForceTouchGesture */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE0B21BE8A04E008481F1 /* ForceTouchGesture.h */,
+				5DB6AAD51BE48FA1003F7981 /* ForceTouchGestureRecognizer.swift */,
+				5DB6AAD61BE48FA1003F7981 /* Info.plist */,
+			);
+			name = ForceTouchGesture;
+			path = ../ForceTouchGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB6AABD1BE48F77003F7981 /* ForceTouchGestureExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB6AAD01BE48F77003F7981 /* Build configuration list for PBXNativeTarget "ForceTouchGestureExample" */;
+			buildPhases = (
+				5DB6AABA1BE48F77003F7981 /* Sources */,
+				5DB6AABB1BE48F77003F7981 /* Frameworks */,
+				5DB6AABC1BE48F77003F7981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceTouchGestureExample;
+			productName = ForceTouchGestureExample;
+			productReference = 5DB6AABE1BE48F77003F7981 /* ForceTouchGestureExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB6AAB61BE48F77003F7981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Shunki Tan";
+				TargetAttributes = {
+					5DB6AABD1BE48F77003F7981 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DB6AAB91BE48F77003F7981 /* Build configuration list for PBXProject "ForceTouchGestureExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB6AAB51BE48F77003F7981;
+			productRefGroup = 5DB6AABF1BE48F77003F7981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB6AABD1BE48F77003F7981 /* ForceTouchGestureExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB6AABC1BE48F77003F7981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6AAD81BE48FA1003F7981 /* Info.plist in Resources */,
+				5DB6AACC1BE48F77003F7981 /* LaunchScreen.storyboard in Resources */,
+				5DB6AAC91BE48F77003F7981 /* Assets.xcassets in Resources */,
+				5DB6AAC71BE48F77003F7981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB6AABA1BE48F77003F7981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6AAC41BE48F77003F7981 /* ViewController.swift in Sources */,
+				5DB6AAD71BE48FA1003F7981 /* ForceTouchGestureRecognizer.swift in Sources */,
+				5DB6AAC21BE48F77003F7981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DB6AAC51BE48F77003F7981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB6AAC61BE48F77003F7981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB6AACA1BE48F77003F7981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB6AACB1BE48F77003F7981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB6AACE1BE48F77003F7981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DB6AACF1BE48F77003F7981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB6AAD11BE48F77003F7981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForceTouchGestureExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanshunki.ForceTouchGestureRecognizerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DB6AAD21BE48F77003F7981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForceTouchGestureExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanshunki.ForceTouchGestureRecognizerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB6AAB91BE48F77003F7981 /* Build configuration list for PBXProject "ForceTouchGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6AACE1BE48F77003F7981 /* Debug */,
+				5DB6AACF1BE48F77003F7981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB6AAD01BE48F77003F7981 /* Build configuration list for PBXNativeTarget "ForceTouchGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6AAD11BE48F77003F7981 /* Debug */,
+				5DB6AAD21BE48F77003F7981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB6AAB61BE48F77003F7981 /* Project object */;
+}
